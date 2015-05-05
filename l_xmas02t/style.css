@@ -1,0 +1,133 @@
+@charset 'EUC-JP';
+
+body {background-color: #003; color: #fff; margin: 0; padding: 0; text-align: center; font-size: 95%;}
+.contents {width: 100%; margin: 0; padding: 0; text-align: left; position: relative;}
+
+table {width: 100%; margin: 0px; padding: 0px;}
+table td {padding: 0px; border-width: 0px; vertical-align: top;}
+th {background-color: #900; color: #fff; padding : 2px; vertical-align : middle;}
+
+a {color: #fff; text-decoration: none; background-color: transparent;}
+a:hover {color: #cf9; font-weight: bold;}
+th a {color: #fff;}
+th a:hover {color: #cf9; font-weight: bold;}
+.headerbar a {color: #003;}
+.headerbar a:hover {color: #900; font-weight: bold;}
+.itemHead a {color: #000;}
+.itemHead a:hover {color: #900; font-weight: bold;}
+.outer th a {color: #fff;}
+.outer th a:hover{color: #cf9; font-weight: bold;}
+.head a {color: #000;}
+.head a:hover{color: #900; font-weight: bold;}
+address a {color: #003; font-size: 90%; font-weight: bold;}
+address a:hover {color: #900; font-size: 90%; font-weight: bold;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul {margin: 0; padding: 2px 5px; text-align: left;}
+li {list-style: square inside; color: #fff;}
+
+input {color: #000; border: 1px solid #000; margin: 1px; padding-top:3px; background-color: #fff;}
+textarea {color: #000; border:1px solid #000; margin: 1px; padding-top:3px; background-color: #fff;}
+
+.item {color: #fff; margin: 1px; border: 3px double #fff;}
+.itemHead {background-color: #fff; color: #000; margin: 1px; padding: 5px 10px 2px; font-size: 120%;}
+.itemInfo {text-align: right; margin: 1px 1px 0px; padding: 3px 10px 2px;}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody { margin: 0px 1px; padding: 2px 15px;}
+.itemText {line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {margin: 0px 1px 1px; padding: 2px 10px; line-height: 120%; text-align: right;}
+.itemAdminLink {}
+.itemPermaLink {}
+
+.header {height: 150px; background-color: #003;}
+.headerbanner01 {width: 200px;}
+.headerlogo {text-align: center;}
+.headerbanner02 {width: 130px;}
+
+.headerbar {background-color: #fff; color: #003; margin-bottom: 15px; padding-right: 10px; border: 1px solid #003; text-align: right;}
+.headerbar input {vertical-align: middle;}
+
+.main {}
+
+.leftcolumn {background: #003 url(./image/bg03.gif) no-repeat bottom left; width: 180px; padding: 0px 20px 0px 15px;}
+.leftcolumn th {vertical-align: middle;}
+.leftcolumn div.blockTitle {background-color: #003; color: #fff; margin: 0px; padding: 10px 5px 2px; border-top: 3px double #fff; border-right: 3px double #fff; border-left: 3px double #fff; text-align: center; font-size: 120%; font-weight: bold;}
+.leftcolumn div.blockContent {margin-bottom: 15px; padding: 2px 10px 20px; background-color: #003; color: #fff; border-right: 3px double #fff; border-bottom: 3px double #fff; border-left: 3px double #fff; line-height: 120%;}
+
+.centercolumn {padding: 20px;}
+
+.center {}
+.centercolumn div.blockTitle img {vertical-align: middle;}
+
+.centerCcolumn {color: #fff;}
+.centerCcolumn div.blockTitle {background-color: #003; margin: 0; padding: 2px 5px 2px; border-top: 3px double #fff; border-right: 3px double #fff; border-left: 3px double #fff; border-bottom: 1px dotted #fff; font-size: 120%; text-align: center;}
+.centerCcolumn div.blockContent {background-color: #003; margin-bottom: 20px; padding: 10px; border-right: 3px double #fff; border-left: 3px double #fff; border-bottom: 3px double #fff;}
+.centerCcolumn div.blockTitle img {vertical-align: middle;}
+
+.centerLcolumn {width: 48%; float: left; color: #fff; text-align: left;}
+.centerLcolumn div.blockTitle { background-color: #003; margin: 0; padding: 2px 5px 2px; border-top: 3px double #fff; border-right: 3px double #fff; border-left: 3px double #fff; border-bottom: 1px dotted #fff; font-size: 120%; text-align: center;}
+.centerLcolumn div.blockContent { background-color: #003; margin-bottom: 20px; padding: 10px; border-right: 3px double #fff; border-left: 3px double #fff; border-bottom: 3px double #fff;}
+
+.centerRcolumn {width: 48%; float: right; color: #fff; text-align: left;}
+.centerRcolumn div.blockTitle { background-color: #003; margin: 0; padding: 2px 5px 2px; border-top: 3px double #fff; border-right: 3px double #fff; border-left: 3px double #fff; border-bottom: 1px dotted #fff; font-size: 120%; text-align: center;}
+.centerRcolumn div.blockContent { background-color: #003; margin-bottom: 20px; padding: 10px; border-right: 3px double #fff; border-left: 3px double #fff; border-bottom: 3px double #fff;}
+
+.content {clear: both; text-align: left;}
+.content div.blockTitle {color: #fff; padding: 5px; font-size: 150%; font-weight: bold;}
+
+.rightcolumn {background: #003 url(./image/bg04.gif) no-repeat bottom right;width: 180px; padding: 0px 15px 0px 20px;}
+.rightcolumn th {vertical-align: middle;}
+.rightcolumn div.blockTitle {color: #fff; padding: 2px 5px; text-align: center; font-size: 120%; font-weight: bold; border-bottom: 3px double #fff;}
+.rightcolumn div.blockContent {color: #fff; margin-bottom: 15px; padding: 10px 5px 5px; line-height: 120%;}
+
+.footerbar {}
+.copyright {background-color: #fff; padding: 5px; text-align:center; border: 1px solid #003;}
+
+td#mainmenu a {display: block; font-weight: bold; border-bottom: 1px dotted #fff;}
+td#mainmenu a:hover {color: #cf9;}
+td#mainmenu a.menuTop {border-top: 1px dotted #fff;}
+td#mainmenu a.menuMain {}
+td#mainmenu a.menuSub {padding-left: 10px;}
+
+td#usermenu a {display: block; font-weight: bold; border-bottom: 1px dotted #fff;}
+td#usermenu a:hover {color: #cf9;}
+td#usermenu a.menuTop {border-top: 1px dotted #fff;}
+td#usermenu a.highlight {background-color: #900;}
+
+.outer {border: 3px double #fff; color: #fff;}
+.outer td {margin: 1px; padding: 5px; border-right: 1px solid #fff; border-bottom: 1px solid #fff;}
+.head {background-color: #fff; color: #000; font-weight: bold;}
+.head td {border: 0}
+.even {background-color: #003;}
+.odd {background-color: #003;}
+.foot {background-color: #003; font-weight:}
+tr.even td {background-color: #003;}
+tr.odd td {background-color: #003;}
+
+div.errorMsg {background-color: #ffffff; text-align: center; border: 1px solid #000; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #ffffff; color: #000000; text-align: center; border: 1px solid #000; font-weight: bold; padding: 10px;}
+div.resultMsg {background-color : #ffffff; color: #000000; text-align: center; borderp: 1px solid #000; font-weight: bold; padding: 10px;}
+
+div.xoopsCode {background: #FFFFFF; border: 1px inset #000; padding: 0px 6px 6px 6px;}
+div.xoopsQuote {background: #FFFFFF; border: 1px inset #000; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {color: #000000; font-weight:bold; border: 1px solid #000; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #000; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-weight:bold;}
+.comUserRankImg {border: 0px;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal;}
+.comDateCaption {font-weight: bold; font-style: normal;}
